@@ -1,0 +1,19 @@
+DECISION TREE
+   outlook->
+     rain
+       wind->
+         strong
+             =no
+         weak
+             =yes
+     overcast
+         =yes
+     sunny
+       humid->
+         normal
+             =yes
+         high
+             =no
+     outlook
+         =play
+The class that is predicted is: no
